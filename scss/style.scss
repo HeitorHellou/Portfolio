@@ -1,0 +1,37 @@
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 70px;
+  font-family: 'Roboto', sans-serif;
+
+  .bi-envelope {
+    margin-right: 10px;
+  }
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+  img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: -70px;
+  }
+}
+
+.social {
+  text-decoration: none;
+  color: black;
+}
+
+.menu {
+  :hover {
+    cursor: pointer;
+  }
+}
